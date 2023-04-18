@@ -50,9 +50,20 @@ namespace TDShooter.Input
             ],
             ""bindings"": [
                 {
+                    ""name"": """",
+                    ""id"": ""4cee8827-05f5-47b2-b4cc-21cb5932ad06"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Shoot"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
                     ""name"": ""2D Vector"",
-                    ""id"": ""80746eff-6a50-4a4d-bda4-2e8cec2a0d3f"",
-                    ""path"": ""2DVector"",
+                    ""id"": ""aa41f1d9-8c92-43af-824c-73470bd363e5"",
+                    ""path"": ""2DVector(mode=1)"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -62,7 +73,7 @@ namespace TDShooter.Input
                 },
                 {
                     ""name"": ""up"",
-                    ""id"": ""d27d23c1-e67d-4a27-af39-efef1932adb2"",
+                    ""id"": ""03dbf834-1a7d-4513-ad09-8203867df9d1"",
                     ""path"": ""<Keyboard>/w"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -73,7 +84,7 @@ namespace TDShooter.Input
                 },
                 {
                     ""name"": ""down"",
-                    ""id"": ""12ef421d-c245-4049-804c-f5d17a8470de"",
+                    ""id"": ""ab86af05-a142-4afe-9590-1977af2eb3ab"",
                     ""path"": ""<Keyboard>/s"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -84,7 +95,7 @@ namespace TDShooter.Input
                 },
                 {
                     ""name"": ""left"",
-                    ""id"": ""4e945a1f-d6fc-43d8-916c-e17df96015f5"",
+                    ""id"": ""ddc1801d-ec17-48b5-8d20-f98f5161ace2"",
                     ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -95,7 +106,7 @@ namespace TDShooter.Input
                 },
                 {
                     ""name"": ""right"",
-                    ""id"": ""2dbbc688-8db1-4b38-abc6-a661f19efbb3"",
+                    ""id"": ""83650449-d707-4f7b-a45f-21782c1adeb0"",
                     ""path"": ""<Keyboard>/d"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -103,17 +114,6 @@ namespace TDShooter.Input
                     ""action"": ""WASD"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""4cee8827-05f5-47b2-b4cc-21cb5932ad06"",
-                    ""path"": ""<Mouse>/leftButton"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Shoot"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
                 }
             ]
         }
